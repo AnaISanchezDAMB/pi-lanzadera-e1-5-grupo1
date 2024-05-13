@@ -9,9 +9,7 @@ public class Login extends JFrame {
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 
-	/**
-	 * Launch the application.
-	 */
+	
 	public static void main(String[] args) {
 
 		Login frame = new Login();
@@ -19,9 +17,7 @@ public class Login extends JFrame {
 
 	}
 
-	/**
-	 * Create the frame.
-	 */
+	
 	public Login() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
