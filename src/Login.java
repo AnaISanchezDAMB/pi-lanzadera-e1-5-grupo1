@@ -31,5 +31,9 @@ public class Login extends JFrame {
 		JButton btnLogin = new JButton("Login");
 		btnLogin.setBounds(286, 187, 89, 23);
 		contentPane.add(btnLogin);
+		
+		JButton btnBack = new JButton("Back");
+		btnBack.setBounds(335, 227, 89, 23);
+		contentPane.add(btnBack);
 	}
 }
